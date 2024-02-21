@@ -1,0 +1,122 @@
+/* Table styling */
+table {
+	width: 99%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th,
+td {
+	padding: 12px 15px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	background-color: #c3e6cb;
+	font-weight: bold;
+	color: #333;
+}
+
+tr:nth-child(even) {
+	background-color: #e0f2e9;
+}
+
+tr:hover {
+	background-color: #6cce83;
+}
+
+tr a {
+	margin-right: 10px;
+	text-decoration: none;
+	color: #007bff;
+	transition: color 0.3s ease-in-out;
+}
+
+tr a:hover {
+	color: #0056b3;
+}
+
+input[type="text"] {
+	padding: 8px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+}
+
+select {
+	padding: 8px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+/* Green-themed button styling */
+button {
+	margin: 20px;
+	padding: 10px 20px;
+	background-color: #28a745; /* Green background color */
+	color: #fff; /* White text color */
+	border: none;
+	border-radius: 4px; /* Rounded corners */
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: #218838; /* Darker green on hover */
+}
+
+button:active {
+	background-color: #1e7e34; /* Even darker green when pressed */
+}
+form {
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #28a745; /* Green color for headings */
+}
+
+.row {
+	margin-bottom: 20px;
+}
+
+label {
+	display: inline-block;
+	width: 200px;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+	width: 95%;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: #28a745; /* Green background color for button */
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+	background-color: #218838; /* Darker green on hover */
+}
